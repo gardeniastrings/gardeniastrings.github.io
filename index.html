@@ -1,15 +1,324 @@
-<!DOCTYPE html>
-<html><head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Gardenia Strings</title>
-<link rel="stylesheet" href="style.css">
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Gardenia Strings presents elegant live music for weddings, celebrations, and private events across Atlanta.">
+  <meta name="theme-color" content="#f4ede1">
+  <title>Gardenia Strings | Atlanta Fine Musicians</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Italiana&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
 </head>
+
 <body>
-<header><h1>Gardenia Strings</h1></header>
-<main class="hero">
-<h2>Elegant live music for life's most memorable moments.</h2>
-<p>Thoughtfully curated musicians for weddings and events across Atlanta.</p>
-<a class="btn" href="#">Check Availability</a>
-</main>
-</body></html>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <a class="wordmark" href="#top" aria-label="Gardenia Strings home">
+      <span>Gardenia</span> <span>Strings</span>
+    </a>
+
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
+      <span class="sr-only">Open menu</span>
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="#experience">Experience</a>
+      <a href="#ensembles">Ensembles</a>
+      <a href="#events">Events</a>
+      <a href="#process">Process</a>
+      <a class="nav-cta" href="#inquiry">Check availability</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="paper-stage hero-stage" aria-labelledby="hero-title">
+      <article class="paper-card hero-card reveal">
+        <span class="foil-corner foil-corner-a" aria-hidden="true"></span>
+        <span class="foil-corner foil-corner-b" aria-hidden="true"></span>
+
+        <div class="botanical-line botanical-line-left" aria-hidden="true">
+          <svg viewBox="0 0 180 420" role="img">
+            <path d="M84 405 C40 338 43 279 91 222 C130 176 136 124 103 50" />
+            <path d="M75 342 C43 323 26 296 20 265" />
+            <path d="M88 276 C128 259 151 229 160 190" />
+            <path d="M101 205 C70 183 53 151 54 116" />
+            <ellipse cx="34" cy="288" rx="18" ry="43" transform="rotate(-34 34 288)"/>
+            <ellipse cx="144" cy="221" rx="18" ry="44" transform="rotate(35 144 221)"/>
+            <ellipse cx="65" cy="145" rx="18" ry="42" transform="rotate(-33 65 145)"/>
+          </svg>
+        </div>
+
+        <div class="hero-logo-wrap">
+          <img src="assets/logo-primary.jpg" alt="Gardenia Strings, Atlanta Fine Musicians" class="hero-logo">
+        </div>
+
+        <p class="eyebrow">Atlanta fine musicians</p>
+        <h1 id="hero-title">Elegant live music for life’s most memorable moments.</h1>
+        <p class="hero-copy">
+          Thoughtfully curated musicians, personalized selections, and seamless coordination
+          for weddings, celebrations, and private events throughout Atlanta.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-gold" href="#inquiry">Check availability</a>
+          <a class="button button-ink" href="#experience">Discover the experience</a>
+        </div>
+
+        <div class="wax-seal" aria-hidden="true">
+          <span>GS</span>
+        </div>
+      </article>
+
+      <div class="page-tabs" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </div>
+    </section>
+
+    <section class="paper-stage" id="experience" aria-labelledby="experience-title">
+      <article class="paper-card torn-card reveal">
+        <div class="section-number">I</div>
+        <div class="section-grid">
+          <div class="section-heading">
+            <p class="eyebrow">A tailored musical experience</p>
+            <h2 id="experience-title">Music selected with the same care as every other detail.</h2>
+          </div>
+          <div class="section-copy">
+            <p>
+              Every event has its own atmosphere. Gardenia Strings helps shape yours through
+              refined performances, thoughtful repertoire, and musicians selected for the
+              character of your celebration.
+            </p>
+            <p>
+              From the first conversation to the final note, we keep the experience calm,
+              personal, and beautifully organized.
+            </p>
+          </div>
+        </div>
+
+        <div class="feature-ribbon">
+          <div>
+            <span class="feature-icon">✦</span>
+            <h3>Personalized selections</h3>
+            <p>Classical favorites, modern songs, cultural traditions, and special requests.</p>
+          </div>
+          <div>
+            <span class="feature-icon">✦</span>
+            <h3>Curated musicians</h3>
+            <p>Experienced Atlanta performers chosen for artistry, professionalism, and fit.</p>
+          </div>
+          <div>
+            <span class="feature-icon">✦</span>
+            <h3>Seamless coordination</h3>
+            <p>Clear planning with couples, planners, venues, and fellow event professionals.</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="paper-stage paper-stage-dark" id="ensembles" aria-labelledby="ensembles-title">
+      <article class="paper-card dark-card reveal">
+        <div class="gold-thread" aria-hidden="true"></div>
+        <div class="section-heading centered">
+          <p class="eyebrow">Choose your sound</p>
+          <h2 id="ensembles-title">Ensembles for every scale of celebration.</h2>
+          <p class="section-intro">
+            Begin with one of our signature ensembles, then tailor the instrumentation and
+            repertoire around your venue, guest experience, and vision.
+          </p>
+        </div>
+
+        <div class="ensemble-grid">
+          <article class="ensemble-card">
+            <span class="ensemble-no">01</span>
+            <h3>String Quartet</h3>
+            <p>Two violins, viola, and cello. Rich, complete, and beautifully versatile.</p>
+            <span class="ensemble-use">Ceremonies · Cocktail hours · Galas</span>
+          </article>
+          <article class="ensemble-card">
+            <span class="ensemble-no">02</span>
+            <h3>String Trio</h3>
+            <p>Elegant depth with a lighter footprint, ideal for intimate and mid-sized venues.</p>
+            <span class="ensemble-use">Weddings · Dinners · Receptions</span>
+          </article>
+          <article class="ensemble-card">
+            <span class="ensemble-no">03</span>
+            <h3>String Duo</h3>
+            <p>A graceful, flexible pairing for warm and personal celebrations.</p>
+            <span class="ensemble-use">Elopements · Proposals · Private events</span>
+          </article>
+          <article class="ensemble-card">
+            <span class="ensemble-no">04</span>
+            <h3>Custom Ensemble</h3>
+            <p>Add piano, harp, winds, or another musical element to create your own sound.</p>
+            <span class="ensemble-use">Designed around your event</span>
+          </article>
+        </div>
+
+        <a class="text-link light-link" href="#inquiry">Tell us what you are planning <span>→</span></a>
+      </article>
+    </section>
+
+    <section class="paper-stage" id="events" aria-labelledby="events-title">
+      <article class="paper-card layered-card reveal">
+        <div class="paper-slip paper-slip-top" aria-hidden="true"></div>
+        <div class="paper-slip paper-slip-side" aria-hidden="true"></div>
+
+        <div class="section-heading centered">
+          <p class="eyebrow">Made for meaningful occasions</p>
+          <h2 id="events-title">A beautiful soundtrack, wherever people gather.</h2>
+        </div>
+
+        <div class="event-list">
+          <article>
+            <span>Weddings</span>
+            <h3>Ceremony, cocktail hour, dinner, and beyond</h3>
+            <p>Music shaped around each transition, from guest arrival to your final celebration.</p>
+          </article>
+          <article>
+            <span>Private celebrations</span>
+            <h3>Proposals, anniversaries, birthdays, and dinners</h3>
+            <p>An intimate musical presence that makes a personal occasion feel extraordinary.</p>
+          </article>
+          <article>
+            <span>Corporate & cultural</span>
+            <h3>Galas, openings, donor events, and receptions</h3>
+            <p>Polished performances designed to complement the room without overpowering it.</p>
+          </article>
+        </div>
+      </article>
+    </section>
+
+    <section class="paper-stage" id="process" aria-labelledby="process-title">
+      <article class="paper-card deckled-card reveal">
+        <div class="section-grid">
+          <div class="section-heading">
+            <p class="eyebrow">Simple from the beginning</p>
+            <h2 id="process-title">Thoughtful planning in four graceful steps.</h2>
+          </div>
+
+          <ol class="process-list">
+            <li>
+              <span>01</span>
+              <div>
+                <h3>Share your vision</h3>
+                <p>Tell us your date, location, atmosphere, and the moments you want music to shape.</p>
+              </div>
+            </li>
+            <li>
+              <span>02</span>
+              <div>
+                <h3>Receive a tailored proposal</h3>
+                <p>We recommend the ensemble, coverage, and musical direction that best fit your event.</p>
+              </div>
+            </li>
+            <li>
+              <span>03</span>
+              <div>
+                <h3>Personalize your selections</h3>
+                <p>Choose favorites, request special arrangements, and refine the flow together.</p>
+              </div>
+            </li>
+            <li>
+              <span>04</span>
+              <div>
+                <h3>Enjoy the moment</h3>
+                <p>We coordinate the details and arrive prepared, so you can be fully present.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </article>
+    </section>
+
+    <section class="paper-stage quote-stage" aria-label="Gardenia Strings promise">
+      <article class="paper-card quote-card reveal">
+        <svg class="quote-flourish" viewBox="0 0 500 120" aria-hidden="true">
+          <path d="M8 64 C104 24 141 100 225 56 C312 11 360 97 492 46"/>
+          <path d="M156 64 C176 45 192 38 210 40"/>
+          <path d="M321 55 C339 70 355 74 374 69"/>
+        </svg>
+        <blockquote>
+          “The right music does more than fill a room. It gives the moment a memory.”
+        </blockquote>
+        <p>Gardenia Strings</p>
+      </article>
+    </section>
+
+    <section class="paper-stage inquiry-stage" id="inquiry" aria-labelledby="inquiry-title">
+      <article class="paper-card inquiry-card reveal">
+        <div class="inquiry-intro">
+          <img src="assets/logo-gold.jpg" alt="" class="inquiry-logo" aria-hidden="true">
+          <p class="eyebrow">Begin your event</p>
+          <h2 id="inquiry-title">Tell us about the moment you are creating.</h2>
+          <p>
+            Share a few details and we will reply with thoughtful recommendations for your ensemble,
+            coverage, and next steps.
+          </p>
+          <div class="contact-details">
+            <a href="mailto:gardeniastrings@gmail.com">gardeniastrings@gmail.com</a>
+            <span>Atlanta, Georgia</span>
+          </div>
+        </div>
+
+        <form class="inquiry-form" id="inquiry-form">
+          <div class="field-row">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" autocomplete="name" required>
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" autocomplete="email" required>
+            </label>
+          </div>
+          <div class="field-row">
+            <label>
+              <span>Event date</span>
+              <input type="date" name="date">
+            </label>
+            <label>
+              <span>Event type</span>
+              <select name="event">
+                <option value="">Select one</option>
+                <option>Wedding ceremony</option>
+                <option>Cocktail hour or reception</option>
+                <option>Private celebration</option>
+                <option>Corporate or cultural event</option>
+                <option>Other</option>
+              </select>
+            </label>
+          </div>
+          <label>
+            <span>Venue or location</span>
+            <input type="text" name="venue" autocomplete="street-address">
+          </label>
+          <label>
+            <span>Tell us about your plans</span>
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <button class="button button-gold submit-button" type="submit">Prepare inquiry email</button>
+          <p class="form-note">This opens a prepared email in your mail app. No information is stored on this website.</p>
+        </form>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <a class="footer-wordmark" href="#top">Gardenia Strings</a>
+      <p>Elegant live music for life’s most memorable moments.</p>
+    </div>
+    <div class="footer-links">
+      <a href="https://www.instagram.com/gardeniastrings/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.youtube.com/@gardeniastrings" target="_blank" rel="noopener">YouTube</a>
+      <a href="mailto:gardeniastrings@gmail.com">Email</a>
+    </div>
+    <p class="copyright">© <span id="year"></span> Gardenia Strings. Atlanta, Georgia.</p>
+  </footer>
+</body>
+</html>
