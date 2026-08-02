@@ -1,4 +1,4 @@
-# Gardenia Strings Website v0.1
+# Gardenia Strings Website v0.2
 
 A static, responsive launch website for Gardenia Strings.
 
@@ -23,3 +23,10 @@ A static, responsive launch website for Gardenia Strings.
 
 ## Next recommended upgrade
 Connect the inquiry form to a form service or serverless endpoint so clients can submit without opening their email app.
+
+
+## v0.2 changes
+- Stronger full-page invitation-card paper texture
+- Softer cream paper tone and layered grain
+- Improved hero spacing
+- Simplified scroll indicator
